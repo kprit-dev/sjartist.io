@@ -21,6 +21,7 @@ public class Mail {
 		String from="sjartandcreation@gmail.com";
 		
 		sendMail(to,subject,message,from);
+		System.out.println("Message function called..");
 	}
 	
 	public static void sendMail(String to,String subject,String message,String from) {
