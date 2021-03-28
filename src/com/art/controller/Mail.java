@@ -42,8 +42,7 @@ public class Mail {
 				return new PasswordAuthentication("sjartandcreation@gmail.com","Anna@2021");
 			}
 			
-		});
-    
+		}); 
     session.setDebug(true);
     MimeMessage m=new MimeMessage(session);
     try {
