@@ -39,7 +39,7 @@ public class Mail {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {
 				// TODO Auto-generated method stub
-				return new PasswordAuthentication("sjartandcreation@gmail.com","Anna@2021");
+				return new PasswordAuthentication("sjartandcreation@gmail.com","Notexposed");
 			}
 			
 		}); 
