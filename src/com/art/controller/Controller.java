@@ -61,7 +61,7 @@ public class Controller extends HttpServlet {
 			if(chk==1)
 			out.println("Details inserted Successfully!!!");
 			else
-			out.println("Failed to push employee Datails");
+			out.println("Failed to insert employee Datails");
 		    	
 			response.sendRedirect("http://localhost:8081/SJArtist/");
 			 
