@@ -59,7 +59,8 @@ public class Controller extends HttpServlet {
 		
 			int chk=st.executeUpdate(query);
 			if(chk==1)
-			out.println("got pushed");
+
+			out.println("All details inserted Successfully!!!");
 			else
 			out.println("Failed to insert employee Datails");
 		    	
